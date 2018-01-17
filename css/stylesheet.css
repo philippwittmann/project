@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+.body-set {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.conticorporate-desing-font {
+  font-family: Continental Stag Sans,Stag Sans,Light,Light Italic,Book,Verdana;
+  text-align:center;
+}
+.language-box {
+  float: right;
+  width: 50px;
+  height: 26px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(115,115,115, 0.7);
+  background-color:#969696;
+}
+.container-language-logo {
+  width: 30px;
+  height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 17%;
+}
+.lang-logo{
+  height: 15px;
+  width: 30px;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menuitem {
+  padding:10px;
+  background-color: #969696;
+}
+.main {
+  float: left;
+  width:60%;
+}
+.header{
+
+}
+.right {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.footer {
+  text-align:center;
+}
+.header-content {
+  height: 250px;
+}
+.right-content {
+  height: 200px;
+}
+.main-content  {
+  height: 700px;
+}
+.footer-content {
+  height: 70px;
+}
+.layout-background-color, .main-content, .right-content, .menu-content, .header-content, .footer-content {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(115,115,115, 0.7);
+  background-color:#cdcdcd;
+}
+.clickbar		{
+	width: 100%;
+	height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+
+	border-top-right-radius: 5px;
+	border-top-left-radius: 5px
+}
+.clickbar, .menuitem {
+  background-color:#969696;
+}
+.branding	{
+	background-color:#ffa500;
+	padding:15px;
+	text-align:left;
+	position: absolute;
+  width: 20em;
+  height: 12em;
+  left: 20%;
+	top: -2px;
+}
+.logo		{
+	width: 100%;
+	position: absolute;
+	left: 0%;
+	top: 70px;
+}
+.header-text{
+
+}
+.clickbar-td, .clickbar-tr, .clickbar-table {
+	border-collapse:collapse;
+	text-align:center;
+	table-layout: fixed;
+	width: 100%;
+	height: 50px;
+	font-weight: bold;
+	vertical-align: middle;
+	border-style: none;
+}
+.clickbar-td:hover, .menuitem:hover, .language-box:hover {
+  background-color: #f0f0f0;
+}
+.clickbar-td:active, .language-box:active, .menuitem:active{
+  background-color: #ffa500;
+}
+.invisblelink{
+	text-decoration: none;
+	color: #000000;
+  background-color: #969696;
+
+}
+.item {
+  padding: 5px;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* Für Handys: */
+  .menu, .main, .right {
+    width:100%;
+  }
+  .branding, .header-text{
+    visibility: hidden;
+  }
+  .header-content{
+    background-color: #ffa500;
+    height: 50px;
+  }
+  .header, .footer, .menu , .main , .right {
+    padding: 5px;
+  }
+  .body-set {
+    width: 100%;
+  }
+}
